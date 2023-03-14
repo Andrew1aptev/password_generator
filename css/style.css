@@ -1,0 +1,50 @@
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+.box{
+    display: flex;
+    flex-direction: column;
+    width: 380px;
+    height: 100px;
+    margin: 0 auto;
+    margin-top: 35vh;
+}
+#output{
+    height: 70px;
+    background-color: #fff;
+    font-size: 40px;
+    outline: none;
+    color: #000;
+    border: 1px solid black;
+    text-align: center;
+    padding: 10px;
+}
+.btn_box{
+    display: flex;
+    justify-content: space-around;
+}
+#generate,#reset,#copy{
+    height: 30px;
+    width: 130px;
+    border: 1px solid black;
+    cursor: pointer;
+    border-top: none ;
+}
+#generate:hover{
+    transition: background-color 0.5s;
+    background-color: #77f48a;
+}
+#copy:hover{
+    transition: background-color 1s;
+    background-color: #e7c84b;
+}
+#reset:hover{
+    transition: background-color 1s;
+    background-color: #f99193;
+}
